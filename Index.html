@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Assets/css/style.css">
-    <script src="/Assets/js/script.js"></script>
+    <script src="/Assets/javscrpt.js"></script>
     <title>Instagram</title>
 </head>
 <body>
@@ -14,15 +14,16 @@
             <img src="/Assets/imgs/preview.png" alt="Preview app in a phone">
         </div>
         <div class="continue">
-            <div class="group">
-                <img src="/Assets/imgs/logo.png" alt="Instagram logo" class="insta-logo">
+            <button class="mode-toggle" onclick="ToggleDarkMode()"><img src="/Assets/imgs/moon.svg" id="toggle-img"></button>
+            <div class="group light-mode-group">
+                <img src="/Assets/imgs/logo.png" alt="Instagram logo" id="insta-logo">
                 <div class="profile-picture">
                     <img src="/Assets/imgs/perfil.png" alt="Image de perfil">
                 </div>
                 <a href="#" class="continue-login">Continue como edulkz</a>
                 <a href="#" class="continue-remove">Remover conta</a>
             </div>
-            <div class="group">
+            <div class="group light-mode-group">
                 <p class="not-user">Não é edulkz?</p>
                 <p class="not-user">
                     <a href="#" class="not-user-link">Trocar contas </a> 
